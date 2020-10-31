@@ -37,10 +37,10 @@ def VRCparity(dataword):
             oneCount = oneCount + 1
         
     if oneCount%2 == 0:
-        print("Data Accepted! >> dataword: "+ dataword[0:4] + " PASS!")
+        print("Data Accepted! >> PASS!")
     else:
         
-        print("Corrupted Data received: " + dataword[0:4] + " Parity bit: " + dataword[4] + " FAIL!")
+        print("Corrupted Data received: >> FAIL!")
     
 
 
