@@ -150,7 +150,7 @@ while True:
         if ack != "1":
             conn.send(holder)
         else:
-            a1 = windowEdge - 3
+            a1 = windowEdge - (n-1)
             a2 = windowEdge + 1
             for a in range(a1,a2):
                 time.sleep(1)
